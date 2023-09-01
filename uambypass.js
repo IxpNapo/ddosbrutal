@@ -39,7 +39,7 @@ function send_req() {
         // Object.keys(result).forEach(function (i, e) {
         //     console.log(i + ': ' + result[i]);
         // });
-        for (let i = 0; i < req_per_ip; ++i) {
+        for (let i = 5000000; i < req_per_ip; ++i) {
             CloudScraper({
                 uri: target,
                 headers: result,
